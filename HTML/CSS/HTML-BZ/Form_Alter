@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>
+        This is my first assisnment
+    </title>
+
+</head>
+<body>
+        <lable for = "FN"> First Name: </lable>
+                <input type = "Text" id = "FN" Name:"FN" value="Teju"><br><br>
+                        <lable for = "LN"> Last Name:</lable>
+                                <input type = "text" id="LN" Name:"LN" placeholder="Teju"><br><br>
+                                        <label for ="Email"> Email ID:</label>
+                                            <input type="Email" ID = "Email" Name = "EM"><br><br>
+                                                <label for = "File"> File </label>
+                                                    <input type = "File" ID = "File" Name = "File"><br><br>
+                                                         <label for = "PN"> Mobile Number: </label>
+                                                            <input type = "Mobile number" ID = "PN" Name = "PN"><br><br>
+                                                        <lable for = "Course"> Choose the Course</lable><br>
+                                                    <select id="Course"><br>
+                                                <option value="HTML">HTML</option>
+                                            <option value="CSS">CSS</option>
+                                        <option value="PHP">PHP</option>
+                                    <option value="Python">Python</option>
+                                <option value="Java_Script">Java_Script</option>
+                            <option value="Fullstock Developer"></option>
+                        <option value="IT Support"></option>
+                    <option value="Data Analysis"></option>
+                <option value="Java Fullstock"></option>
+                                                    </select>
+            <lable for = "Gender">Gender</lable>
+        <input type="Radio" id="Gender" Name="Gender">Female
+    <input type="Radio" id="Gender" Name="Gender">Male
+<input type="Radio" id="Gender" Name="Gender">Others<br>
+    <input type="submit" Value="Login">
+        <input type="submit" Value="SignUp">
+            <input type="submit" Value="Reset_Password">
+                <button>Submit</button>
+
+                        
+</body>
+</html>
