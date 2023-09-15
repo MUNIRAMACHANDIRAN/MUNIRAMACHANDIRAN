@@ -1,0 +1,85 @@
+.section{
+
+    color:black;
+    margin-bottom: 10px;
+
+}
+
+body {
+
+    background-color: rgba(250, 235, 215, 0.62);
+    background-image: url('../desktop-wallpaper-abstract-red-png-light-red-abstract.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
+
+
+}
+
+.container{
+
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 40px;
+    box-shadow: 12px 14px 20px 0px blanchedalmond;
+
+}
+
+h1 {
+    padding: 10px 0px ;
+}
+
+.header-para{
+
+    padding: 10px 0 40px;
+    line-height: 1.5;
+}
+
+h2{
+
+    background-color: #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+p{
+
+    margin-bottom: 10px;
+
+}
+
+th{
+    background-color: #ccc;
+}
+
+.lotus tr td {
+
+    border: solid 1px #ccc;
+    padding: 10px 20px;
+}
+
+
+.lotus tr th {
+    border: solid 1px #ccc;
+    padding: 10px 20px;
+}
+
+.section1 li {
+
+    list-style: none;
+    padding-left: 30px;
+    
+}
+
+.section1 li:before {
+
+    content: "";
+    display: inline block;
+    background:blue;
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    left: -25px;
+    position: relative;
+}
